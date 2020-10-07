@@ -1,6 +1,6 @@
-# Git常用命令整理
+# Git 常用命令整理
 
-## 配置Git
+## 配置 Git
 
 ```sh
 # 配置全局用户
@@ -17,7 +17,7 @@ $ cat ~/.gitconfig
 $ cat .git/config
 ```
 
-## 查看Git仓库状态
+## 查看 Git 仓库状态
 
 ```sh
 # 查看提交历史
@@ -33,7 +33,7 @@ $ git branch
 # 查看远程本地所有分支
 $ git branch -a
 ```
-## 常用操作令
+## 常用命令
 
 ```sh
 # 克隆到本地
@@ -79,7 +79,7 @@ $ git rebase -i
 $ git cherry-pick [commit]
 ```
 
-## 回退操作命令
+## 回退命令
 
 ```sh
 # 回退版本，重置工作区、暂存区
@@ -96,17 +96,15 @@ $ git restore --staged [file]
 $ git clean -df
 ```
 
-***
-
-## Push到Gerrit提示Merge Conflict
+## Push 到 Gerrit 提示 Merge Conflict
 
 > 解决方法：
-> 1. **switch**新建temp分支
-> 2. **reset**回退版本
-> 3. **pull**拉取最新
-> 4. **cherry-pick**要合并的提交
+> 1. **switch** 新建 temp 分支
+> 2. **reset ** 回退版本
+> 3. **pull ** 拉取最新
+> 4. **cherry-pick** 要合并的提交
 > 5. 处理冲突
-> 6. **add**到暂存区
+> 6. **add ** 到暂存区
 > 7. **git cherry-pick --continue**
-> 8. **push**到远端
+> 8. **push** 到远端
 
