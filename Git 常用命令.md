@@ -108,3 +108,5 @@ $ git clean -df
 > 7. **git cherry-pick --continue**
 > 8. **push** 到远端
 
+**后续有用到其他命令再补充......**
+

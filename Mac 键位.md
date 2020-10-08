@@ -1,3 +1,25 @@
+# AHK脚本主要功能
+
+1. 左Win改成 LAlt，原LAlt变成Command键，Win放到了原来AppsKey的位置
+2. Command + 英文/数字/标点符号 = Ctrl + 英文/数字/标点符号（和Mac常用键统一）
+3. 按住Ctrl的时候再按Command键 = Ctrl + Alt （保留原有Ctrl + Alt组合键功能）
+4. 保留Command + Tab = 切屏
+5. Command + [ = 后退（IDEA，Chrome浏览器都支持）
+6. Command + ] = 前进
+7. Command + 方向上 = 上一页 （同上）
+8. Command + 方向下 = 下一页
+9. Command + 方向左 = 光标移动到行首 （同上）
+10. Command + 方向右 = 光标移动到行尾
+11. Command + Shift + 方向左 = 选中到行首（同上）
+12. Command + Shift + 方向右 = 选中到行尾
+13. Command + 鼠标左键 = Ctrl + 鼠标左键
+14. CapsLock 改成长按 = 大写， 轻按 = 切换中英文（与MacOS保持一致）
+15. 屏蔽了输入法切换按键 Shift + Command
+16. 屏蔽了输入法切换按键 Ctrl + Space
+17. Command + Space = Alt + Space
+18. Command + 数字键 = F1 ~ F12
+19. Command + Backspace = Delete
+
 ```
 AltState = 0
 CtrlState = 0
